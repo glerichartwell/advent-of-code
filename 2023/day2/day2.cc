@@ -49,8 +49,6 @@ namespace game {
 
 int partOne() {
 
-    
-
     ifstream inputFile;
     inputFile.open("input.txt");
 
@@ -76,6 +74,7 @@ int partOne() {
 
 
 int main() {
+    
     cout << "Day 2 Part 1: " << partOne() << endl;
 
     return 0;
